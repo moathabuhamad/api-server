@@ -6,6 +6,7 @@ const router = express.Router();
 console.log(Food);
 router.post("/food", addFood);
 router.get("/food/:id", readFood);
+router.get("/food",readFood);
 router.put("/food/:id", updateFood);
 router.delete("/food/:id", deleteFood);
 
